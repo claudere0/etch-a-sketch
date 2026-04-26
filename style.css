@@ -1,0 +1,32 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(127, 127, 127);
+    display: flex;
+    justify-content: center;
+}
+
+#container {
+    margin: 0px;
+    padding: 0px;
+    width: 960px;
+    height: 960px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-square {
+    margin: 0px;
+    padding: 0px;
+    width: 60px;
+    height: 60px;
+    border: 2px solid #bfbfbf;
+}
+
+#adjust-size {
+    background-color: #bfbfbf;
+}
